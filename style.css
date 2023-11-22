@@ -1,0 +1,114 @@
+/* Bordered form */
+body{
+    background-color: green;
+    justify-content: center;
+}
+form{
+    border: 3px solid #f1f1f1;
+    width: 30%;
+    max-width: 30%;
+    margin: 40px auto;
+    background-color: white;
+}
+/* Full-width inputs */
+input[type=text], input[type=password]
+{
+    width: 100%;
+    max-width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+/* Set a style for all buttons */
+button{
+    background-color: #04aa6d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 100%;
+}
+/* Add a hover effect for buttons*/
+button:hover{
+    opacity: 0.8;
+}
+/* Extra style for cancel button(red) */
+.cancelbtn{
+    width: auto;
+    max-width: auto;
+    padding: 10px 18px;
+    background-color: #f43636;
+}
+/* Center the avater image inside the container */
+.imgcontainer{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+/* Avater image */
+img.avater{
+    width: 40%;
+    max-width: 40%;
+    border-radius: 50%;
+}
+/* Add padding to containers */
+.container{
+    padding: 16px;
+}
+/* The "Forgot password" text */
+span.psw{
+    float: right;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: Arial;
+}
+/* Change style for span and cancel button on extra small screen */
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 1rem;
+    }
+    
+ span.psw{
+    display: block;
+    float: none;
+ }
+ .cancelbtn{
+    width: 50%;
+    max-width: 50%;
+
+ }
+ input[type=text], input[type=password]
+{
+    width: 100%;
+    max-width: 100%;
+    padding: 2px 3px;
+    margin: 8px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+}
+#asd{
+    padding-left: 3rem;
+}
+.log{
+    background-color: #04aa6d;
+    color: white;
+    padding: 5px 8px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 100%;
+}
+form{
+    border: 3px solid #f1f1f1;
+    width: 80%;
+    max-width: 80%;
+    margin: 40px auto;
+    background-color: white;
+}
+}
